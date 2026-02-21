@@ -35,7 +35,7 @@ export const DATA: Record<Language, AppData> = {
           { id: '1-1', time: '13:55', title: 'Arrivals', description: 'TW arrives 13:00. SG arrives 13:55. Meet at Arrival Hall, near Gate A (Pret A Manger).', isImportant: true },
           { id: '1-2', time: '15:00', title: 'Pick up to Hotel', description: 'Klook Car (booked x2). 30 mins drive.', isImportant: true },
           { id: '1-3', time: '16:00', title: 'Check-in Holiday Inn', description: 'IHG App (4 Rooms). Rest.', links: [{ label: 'Hotel Map', url: 'https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Golden+Mile+Hong+Kong', type: 'map' }] },
-          { id: '1-4', time: '18:00', title: 'Dinner @ The Queen 后園', description: 'Located in the 1881 Heritage. Reinterpreting classic dishes from the 8 major Chinese cuisines.', links: [{ label: 'Restaurant Info', url: 'http://www.fwdhouse1881.com/the-queen.html', type: 'food' }] },
+          { id: '1-4', time: '18:00', title: 'Dinner @ Nanhai No. 1', description: 'Located in iSquare. Michelin-recommended Cantonese cuisine with a panoramic view of Victoria Harbour.', links: [{ label: 'Restaurant Map', url: 'https://www.google.com/maps/search/?api=1&query=Nanhai+No.1+Hong+Kong', type: 'food' }] },
           { id: '1-5', time: '20:00', title: 'Nathan Road Shopping', description: 'Explore Tsim Sha Tsui area.' },
           { id: '1-6', time: '20:30', title: 'Back to Hotel', description: 'Rest. Prepare for early Shenzhen trip tomorrow.' }
         ]
@@ -101,10 +101,10 @@ export const DATA: Record<Language, AppData> = {
         id: 'CN',
         name: 'CN',
         souvenirs: [
-          { 
+          {
             id: 'cn-shop',
-            name: 'Miniso / KKV', 
-            description: 'Affordable lifestyle goods and blind boxes.', 
+            name: 'Miniso / KKV',
+            description: 'Affordable lifestyle goods and blind boxes.',
             tags: ['Shopping'],
             mustBuy: ['Chiikawa Blind Box', 'Plushies'],
             imageUrl: 'https://duk.tw/T1N6zx.png'
@@ -125,48 +125,48 @@ export const DATA: Record<Language, AppData> = {
         id: 'HK',
         name: 'HK',
         souvenirs: [
-          { 
+          {
             id: 'hk-jenny',
-            name: 'Jenny Bakery', 
-            description: 'Famous butter cookies. Tsim Sha Tsui (Mirador Mansion). Long queues expected.', 
+            name: 'Jenny Bakery',
+            description: 'Famous butter cookies. Tsim Sha Tsui (Mirador Mansion). Long queues expected.',
             tags: ['Food', 'Famous'],
             mustBuy: ['4-mix Butter Cookies', 'Coffee Flower Cookies'],
             imageUrl: 'https://duk.tw/gg19gR.webp'
           },
-          { 
+          {
             id: 'hk-bake',
-            name: 'Bakehouse', 
-            description: 'Sourdough Egg Tarts. Pre-order recommended.', 
+            name: 'Bakehouse',
+            description: 'Sourdough Egg Tarts. Pre-order recommended.',
             tags: ['Food'],
             mustBuy: ['Sourdough Egg Tart', 'Croissant'],
             imageUrl: 'https://duk.tw/U4SqTe.jpg'
           },
-          { 
+          {
             id: 'hk-lemon',
-            name: 'Lemon King', 
-            description: 'Preserved lemon snacks. Sheung Wan.', 
+            name: 'Lemon King',
+            description: 'Preserved lemon snacks. Sheung Wan.',
             tags: ['Snack'],
             mustBuy: ['Licorice Lemon', 'Licorice Olive']
           },
-          { 
+          {
             id: 'hk-duck',
-            name: 'Duck Shing Ho', 
-            description: 'Egg rolls. North Point. Very hard to buy (early morning queue).', 
+            name: 'Duck Shing Ho',
+            description: 'Egg rolls. North Point. Very hard to buy (early morning queue).',
             tags: ['Food'],
             mustBuy: ['Original Egg Rolls', 'Coconut Egg Rolls'],
             imageUrl: 'https://duk.tw/OmXSXn.jpg'
           },
-          { 
+          {
             id: 'hk-pen',
-            name: 'Peninsula Boutique', 
-            description: 'Luxury XO sauce and chocolates.', 
+            name: 'Peninsula Boutique',
+            description: 'Luxury XO sauce and chocolates.',
             tags: ['Luxury'],
             mustBuy: ['XO Chili Sauce', 'Chocolate Gift Box']
           },
-          { 
+          {
             id: 'hk-snacks',
-            name: 'Snacks', 
-            description: 'Popular local snacks from supermarkets.', 
+            name: 'Snacks',
+            description: 'Popular local snacks from supermarkets.',
             tags: ['Snack'],
             mustBuy: ['Hot Wave Chips', 'Vitasoy']
           }
@@ -185,33 +185,33 @@ export const DATA: Record<Language, AppData> = {
         id: 'MO',
         name: 'MO',
         souvenirs: [
-          { 
+          {
             id: 'mo-koi',
-            name: 'Koi Kei Bakery', 
-            description: 'Almond cakes and peanut candy. Everywhere in Macau.', 
+            name: 'Koi Kei Bakery',
+            description: 'Almond cakes and peanut candy. Everywhere in Macau.',
             tags: ['Food'],
             mustBuy: ['Almond Cookies', 'Peanut Candy'],
             imageUrl: 'https://duk.tw/BL4isA.png'
           },
-          { 
+          {
             id: 'mo-stow',
-            name: 'Lord Stow\'s Bakery', 
-            description: 'Portuguese Egg Tarts. The original one in Coloane is best.', 
+            name: 'Lord Stow\'s Bakery',
+            description: 'Portuguese Egg Tarts. The original one in Coloane is best.',
             tags: ['Food'],
             mustBuy: ['Portuguese Egg Tarts'],
             imageUrl: 'https://duk.tw/iywCEp.png'
           },
-          { 
+          {
             id: 'mo-jerky',
-            name: 'Meat Jerky', 
-            description: 'Beef/Pork jerky sheets found near Ruins of St. Paul.', 
+            name: 'Meat Jerky',
+            description: 'Beef/Pork jerky sheets found near Ruins of St. Paul.',
             tags: ['Snack'],
             mustBuy: ['Wild Boar Jerky', 'Black Pepper Beef Jerky']
           },
-          { 
+          {
             id: 'mo-omoon',
-            name: 'O Moon', 
-            description: 'Macau-themed creative lifestyle products.', 
+            name: 'O Moon',
+            description: 'Macau-themed creative lifestyle products.',
             tags: ['Gift'],
             mustBuy: ['Azulejo Coasters', 'Moon Lamps'],
             imageUrl: 'https://duk.tw/1R4vhd.jpg'
@@ -294,7 +294,7 @@ export const DATA: Record<Language, AppData> = {
           { id: '1-1', time: '13:55', title: '抵達香港', description: 'TW 13:00 抵達 / SG 13:55 抵達。接機大堂 A 區 (Pret A Manger 旁) 集合。', isImportant: true },
           { id: '1-2', time: '15:00', title: '前往飯店', description: 'Klook 包車接送 (預訂 x2)。車程30分鐘。', isImportant: true },
           { id: '1-3', time: '16:00', title: '入住假日酒店', description: 'IHG App 訂房 (4間)。休息。', links: [{ label: '飯店地圖', url: 'https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Golden+Mile+Hong+Kong', type: 'map' }] },
-          { id: '1-4', time: '18:00', title: '晚餐 @ The Queen 后園', description: '餐廳位於維多利亞時期建築前水警總部「1881」之內，搜羅世界各地的時令食材入饌，將中國八大菜系的多款名菜重新演繹。', links: [{ label: '餐廳資訊', url: 'http://www.fwdhouse1881.com/the-queen.html', type: 'food' }] },
+          { id: '1-4', time: '18:00', title: '晚餐 @ 南海一號', description: '位於 iSquare 國際廣場。米其林推薦粵菜，擁有維港全景。', links: [{ label: '餐廳地圖', url: 'https://www.google.com/maps/search/?api=1&query=Nanhai+No.1+Hong+Kong', type: 'food' }] },
           { id: '1-5', time: '20:00', title: '彌敦道逛街', description: '尖沙咀周邊購物。' },
           { id: '1-6', time: '20:30', title: '返回飯店', description: '休息。準備明日前往深圳。' }
         ]
@@ -360,10 +360,10 @@ export const DATA: Record<Language, AppData> = {
         id: 'CN',
         name: '中國',
         souvenirs: [
-          { 
+          {
             id: 'cn-shop',
-            name: 'Miniso / KKV', 
-            description: '平價生活小物、盲盒，款式比香港多。', 
+            name: 'Miniso / KKV',
+            description: '平價生活小物、盲盒，款式比香港多。',
             tags: ['購物'],
             mustBuy: ['Chiikawa 盲盒', '公仔玩偶'],
             imageUrl: 'https://duk.tw/T1N6zx.png'
@@ -384,48 +384,48 @@ export const DATA: Record<Language, AppData> = {
         id: 'HK',
         name: '香港',
         souvenirs: [
-          { 
+          {
             id: 'hk-jenny',
-            name: '珍妮曲奇 (小熊餅乾)', 
-            description: '尖沙咀美麗都大廈。著名的奶油曲奇，通常需排隊。', 
+            name: '珍妮曲奇 (小熊餅乾)',
+            description: '尖沙咀美麗都大廈。著名的奶油曲奇，通常需排隊。',
             tags: ['美食', '熱門'],
             mustBuy: ['四味奶油曲奇', '咖啡花曲奇'],
             imageUrl: 'https://duk.tw/gg19gR.webp'
           },
-          { 
+          {
             id: 'hk-bake',
-            name: 'Bakehouse', 
-            description: '酸種蛋塔。建議提前預訂或早上去排隊。', 
+            name: 'Bakehouse',
+            description: '酸種蛋塔。建議提前預訂或早上去排隊。',
             tags: ['美食'],
             mustBuy: ['酸種蛋塔 (Sourdough Tart)', '可頌 (Croissant)'],
             imageUrl: 'https://duk.tw/U4SqTe.jpg'
           },
-          { 
+          {
             id: 'hk-lemon',
-            name: '檸檬王', 
-            description: '上環甘草檸檬，老字號零嘴。', 
+            name: '檸檬王',
+            description: '上環甘草檸檬，老字號零嘴。',
             tags: ['零食'],
             mustBuy: ['甘草檸檬', '甘草欖']
           },
-          { 
+          {
             id: 'hk-duck',
-            name: '德成號', 
-            description: '北角蛋捲。非常難買，需清晨排隊。', 
+            name: '德成號',
+            description: '北角蛋捲。非常難買，需清晨排隊。',
             tags: ['美食'],
             mustBuy: ['家鄉雞蛋捲', '椰汁雞蛋捲'],
             imageUrl: 'https://duk.tw/OmXSXn.jpg'
           },
-          { 
+          {
             id: 'hk-pen',
-            name: '半島酒店精品店', 
-            description: 'XO醬、巧克力，送禮體面。', 
+            name: '半島酒店精品店',
+            description: 'XO醬、巧克力，送禮體面。',
             tags: ['高級'],
             mustBuy: ['XO醬', '巧克力禮盒']
           },
-          { 
+          {
             id: 'hk-snacks',
-            name: '零食', 
-            description: '超市必買熱門零食，便宜好吃。', 
+            name: '零食',
+            description: '超市必買熱門零食，便宜好吃。',
             tags: ['零食'],
             mustBuy: ['熱浪薯片', '維他奶']
           }
@@ -444,33 +444,33 @@ export const DATA: Record<Language, AppData> = {
         id: 'MO',
         name: '澳門',
         souvenirs: [
-          { 
+          {
             id: 'mo-koi',
-            name: '鉅記手信', 
-            description: '杏仁餅、花生糖。分店遍佈全澳。', 
+            name: '鉅記手信',
+            description: '杏仁餅、花生糖。分店遍佈全澳。',
             tags: ['美食'],
             mustBuy: ['粒粒杏仁餅', '花生糖'],
             imageUrl: 'https://duk.tw/BL4isA.png'
           },
-          { 
+          {
             id: 'mo-stow',
-            name: '安德魯 / 瑪嘉烈', 
-            description: '葡式蛋塔。路環總店 (安德魯) 最經典。', 
+            name: '安德魯 / 瑪嘉烈',
+            description: '葡式蛋塔。路環總店 (安德魯) 最經典。',
             tags: ['美食'],
             mustBuy: ['葡式蛋塔'],
             imageUrl: 'https://duk.tw/iywCEp.png'
           },
-          { 
+          {
             id: 'mo-jerky',
-            name: '豬肉乾', 
-            description: '大三巴街有許多店家提供試吃與販售。', 
+            name: '豬肉乾',
+            description: '大三巴街有許多店家提供試吃與販售。',
             tags: ['零食'],
             mustBuy: ['野豬肉乾', '黑胡椒牛肉乾']
           },
-          { 
+          {
             id: 'mo-omoon',
-            name: 'O Moon', 
-            description: '充滿澳門元素的文創商品。', 
+            name: 'O Moon',
+            description: '充滿澳門元素的文創商品。',
             tags: ['禮品'],
             mustBuy: ['花磚杯墊', '月球燈'],
             imageUrl: 'https://duk.tw/1R4vhd.jpg'
