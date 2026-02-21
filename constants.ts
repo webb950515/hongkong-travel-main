@@ -30,20 +30,20 @@ export const DATA: Record<Language, AppData> = {
       {
         day: 'Day 1',
         date: '2/22 (Sun)',
-        weather: '17°C - 21°C ☁️ Cloudy',
+        weather: '18°C - 22°C ☁️ Cloudy',
         items: [
           { id: '1-1', time: '13:55', title: 'Arrivals', description: 'TW arrives 13:00. SG arrives 13:55. Meet at Arrival Hall, near Gate A (Pret A Manger).', isImportant: true },
           { id: '1-2', time: '15:00', title: 'Pick up to Hotel', description: 'Klook Car (booked x2). 30 mins drive.', isImportant: true },
           { id: '1-3', time: '16:00', title: 'Check-in Holiday Inn', description: 'IHG App (4 Rooms). Rest.', links: [{ label: 'Hotel Map', url: 'https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Golden+Mile+Hong+Kong', type: 'map' }] },
-          { id: '1-4', time: '18:00', title: 'Dinner @ Nanhai No. 1', description: 'Located in iSquare. Michelin-recommended Cantonese cuisine with a panoramic view of Victoria Harbour.', links: [{ label: 'Restaurant Map', url: 'https://www.google.com/maps/search/?api=1&query=Nanhai+No.1+Hong+Kong', type: 'food' }] },
-          { id: '1-5', time: '20:00', title: 'Nathan Road Shopping', description: 'Explore Tsim Sha Tsui area.' },
+          { id: '1-4', time: '18:00', title: 'Dinner @ Nanhai No.1', description: 'Located in iSquare. Michelin recommended Cantonese cuisine with panoramic harbour views.', links: [{ label: 'Map', url: 'https://www.google.com/maps/search/?api=1&query=Nanhai+No.1+Hong+Kong', type: 'food' }] },
+          { id: '1-5', time: '20:00', title: 'Nathan Road Shopping', description: 'Explore Tsim Sha Tsui area. Mammy pancake.' },
           { id: '1-6', time: '20:30', title: 'Back to Hotel', description: 'Rest. Prepare for early Shenzhen trip tomorrow.' }
         ]
       },
       {
         day: 'Day 2',
         date: '2/23 (Mon)',
-        weather: '16°C - 22°C ☀️ Sunny',
+        weather: '17°C - 23°C ☀️ Sunny',
         items: [
           { id: '2-1', time: '09:00', title: 'To West Kowloon Station', description: 'Uber (30 mins). HSR to Shenzhen.', isImportant: true, links: [{ label: 'West Kowloon Map', url: 'https://www.google.com/maps/search/?api=1&query=Hong+Kong+West+Kowloon+Station', type: 'map' }] },
           { id: '2-2', time: '10:45', title: 'HSR to Shenzhen (G5630)', description: '10:45 - 11:01 to Futian Station. Klook Tickets (booked x8). Arrive 90mins before.', links: [{ label: 'Futian Station Map', url: 'https://www.google.com/maps/search/?api=1&query=Futian+Railway+Station', type: 'map' }] },
@@ -57,19 +57,19 @@ export const DATA: Record<Language, AppData> = {
       {
         day: 'Day 3',
         date: '2/24 (Tue)',
-        weather: '18°C - 23°C 🌤️ Partly Cloudy',
+        weather: '18°C - 24°C 🌤️ Partly Cloudy',
         items: [
-          { id: '3-1', time: '10:30', title: 'Free Morning', description: 'Sleep in. Free time.' },
-          { id: '3-2', time: '12:00', title: 'Lunch', description: 'Local restaurant (TBD).', links: [{ label: 'Nearby Food', url: 'https://www.google.com/maps/search/?api=1&query=Restaurants+near+Tsim+Sha+Tsui', type: 'food' }] },
-          { id: '3-3', time: '14:00', title: 'Shopping / Temple St', description: 'Nathan road shopping. Temple street night market later.' },
-          { id: '3-4', time: '18:30', title: 'Dinner', description: 'Suggestion: Kwan Kee Claypot Rice. Walking distance.', links: [{ label: 'Kwan Kee Map', url: 'https://www.google.com/maps/search/?api=1&query=Kwan+Kee+Claypot+Rice', type: 'food' }] },
-          { id: '3-5', time: '20:00', title: 'Victoria Harbour', description: 'Night view of the skyline.' }
+          { id: '3-1', time: '10:00', title: 'Peak Tram + Sky Terrace', description: 'If weather is good. Klook tickets (Booked x8).', links: [{ label: 'Peak Tram', url: 'https://www.google.com/maps/search/?api=1&query=Peak+Tram+Terminus', type: 'map' }] },
+          { id: '3-2', time: '12:30', title: 'Lunch @ Lin Heung Lau', description: 'Traditional tea house. Buy bolo egglet nearby.', links: [{ label: 'Lin Heung Lau', url: 'https://www.google.com/maps/search/?api=1&query=Lin+Heung+Lau+Central', type: 'food' }] },
+          { id: '3-3', time: '14:00', title: 'Central Escalators / Shopping', description: 'Central-Mid-Levels Escalators. Nathan road shopping later.', links: [{ label: 'Escalators', url: 'https://www.google.com/maps/search/?api=1&query=Central+Mid+Levels+Escalator', type: 'map' }] },
+          { id: '3-4', time: '18:30', title: 'Dinner (Temple St)', description: 'Temple street night market. Suggestion: Kwan Kee Claypot Rice / Kai Kai Dessert.', links: [{ label: 'Kwan Kee Map', url: 'https://www.google.com/maps/search/?api=1&query=Kwan+Kee+Claypot+Rice', type: 'food' }] },
+          { id: '3-5', time: '20:00', title: 'Victoria Harbour', description: 'Night view and light show. Avenue of Stars.' }
         ]
       },
       {
         day: 'Day 4',
         date: '2/25 (Wed)',
-        weather: '17°C - 22°C ☀️ Sunny',
+        weather: '18°C - 23°C ☀️ Sunny',
         items: [
           { id: '4-1', time: '08:30', title: 'To Ferry Terminal', description: 'Uber (30 mins) to Sheung Wan / China Ferry Terminal.', isImportant: true, links: [{ label: 'Sheung Wan Terminal', url: 'https://www.google.com/maps/place/%E9%A6%99%E6%B8%AF%E5%B0%96%E6%B2%99%E5%92%80%E4%B8%AD%E5%9C%8B%E5%AE%A2%E9%81%8B%E7%A2%BC%E9%A0%AD/@22.2989038,114.1628425,912m/data=!3m1!1e3!4m6!3m5!1s0x3404009297fce72d:0x7475eca620a27198!8m2!3d22.2990876!4d114.1662761!16s%2Fg%2F12hnz4ztj?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D', type: 'map' }] },
           { id: '4-2', time: '10:30', title: 'Ferry to Macau', description: 'TurboJET to Macau Outer Harbour (1h). Klook (Booked x4 + x4).', isImportant: true },
@@ -85,7 +85,7 @@ export const DATA: Record<Language, AppData> = {
       {
         day: 'Day 5',
         date: '2/26 (Thu)',
-        weather: '18°C - 24°C 🌤️ Sunny',
+        weather: '19°C - 24°C 🌤️ Sunny',
         items: [
           { id: '5-1', time: '10:30', title: 'Last Shopping / Bakehouse', description: 'Victoria harbour morning view. Buy Bakehouse egg tarts.', links: [{ label: 'Bakehouse TST', url: 'https://www.google.com/maps/search/?api=1&query=Bakehouse+Tsim+Sha+Tsui', type: 'food' }] },
           { id: '5-2', time: '12:15', title: 'Check Out', description: 'Check out of Holiday Inn.' },
@@ -289,20 +289,20 @@ export const DATA: Record<Language, AppData> = {
       {
         day: '第一天',
         date: '2/22 (日) 香港',
-        weather: '17°C - 21°C ☁️ 多雲',
+        weather: '18°C - 22°C ☁️ 多雲',
         items: [
           { id: '1-1', time: '13:55', title: '抵達香港', description: 'TW 13:00 抵達 / SG 13:55 抵達。接機大堂 A 區 (Pret A Manger 旁) 集合。', isImportant: true },
           { id: '1-2', time: '15:00', title: '前往飯店', description: 'Klook 包車接送 (預訂 x2)。車程30分鐘。', isImportant: true },
           { id: '1-3', time: '16:00', title: '入住假日酒店', description: 'IHG App 訂房 (4間)。休息。', links: [{ label: '飯店地圖', url: 'https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Golden+Mile+Hong+Kong', type: 'map' }] },
           { id: '1-4', time: '18:00', title: '晚餐 @ 南海一號', description: '位於 iSquare 國際廣場。米其林推薦粵菜，擁有維港全景。', links: [{ label: '餐廳地圖', url: 'https://www.google.com/maps/search/?api=1&query=Nanhai+No.1+Hong+Kong', type: 'food' }] },
-          { id: '1-5', time: '20:00', title: '彌敦道逛街', description: '尖沙咀周邊購物。' },
+          { id: '1-5', time: '20:00', title: '彌敦道逛街', description: '尖沙咀周邊購物。媽咪雞蛋仔 (Mammy Pancake)。' },
           { id: '1-6', time: '20:30', title: '返回飯店', description: '休息。準備明日前往深圳。' }
         ]
       },
       {
         day: '第二天',
         date: '2/23 (一) 深圳',
-        weather: '16°C - 22°C ☀️ 晴朗',
+        weather: '17°C - 23°C ☀️ 晴朗',
         items: [
           { id: '2-1', time: '09:00', title: '前往西九龍高鐵站', description: '搭乘 Uber (30分鐘)。準備前往深圳。', isImportant: true, links: [{ label: '西九龍地圖', url: 'https://www.google.com/maps/search/?api=1&query=Hong+Kong+West+Kowloon+Station', type: 'map' }] },
           { id: '2-2', time: '10:45', title: '高鐵往深圳福田 (G5630)', description: '10:45 - 11:01。Klook 訂票 (預訂 x8)。需提前90分鐘抵達。', links: [{ label: '福田站地圖', url: 'https://www.google.com/maps/search/?api=1&query=Futian+Railway+Station', type: 'map' }] },
@@ -316,19 +316,19 @@ export const DATA: Record<Language, AppData> = {
       {
         day: '第三天',
         date: '2/24 (二) 香港',
-        weather: '18°C - 23°C 🌤️ 晴時多雲',
+        weather: '18°C - 24°C 🌤️ 晴時多雲',
         items: [
-          { id: '3-1', time: '10:30', title: '自由活動', description: '睡到自然醒。早午餐。' },
-          { id: '3-2', time: '12:00', title: '午餐', description: '當地餐廳 (待定)。', links: [{ label: '尖沙咀美食', url: 'https://www.google.com/maps/search/?api=1&query=Restaurants+near+Tsim+Sha+Tsui', type: 'food' }] },
-          { id: '3-3', time: '14:00', title: '逛街 / 廟街', description: '彌敦道購物。稍晚前往廟街夜市。' },
-          { id: '3-4', time: '18:30', title: '晚餐', description: '建議：坤記煲仔飯 (Kwan Kee Claypot Rice)。步行前往。', links: [{ label: '坤記地圖', url: 'https://www.google.com/maps/search/?api=1&query=Kwan+Kee+Claypot+Rice', type: 'food' }] },
-          { id: '3-5', time: '20:00', title: '維多利亞港夜景', description: '星光大道散步。' }
+          { id: '3-1', time: '10:00', title: '山頂纜車 + 凌霄閣', description: '視天氣而定。Klook 門票 (預訂 x8)。', links: [{ label: '纜車站地圖', url: 'https://www.google.com/maps/search/?api=1&query=Peak+Tram+Terminus', type: 'map' }] },
+          { id: '3-2', time: '12:30', title: '午餐 @ 蓮香樓', description: '傳統茶樓用餐。附近買利強記雞蛋仔。', links: [{ label: '蓮香樓', url: 'https://www.google.com/maps/search/?api=1&query=Lin+Heung+Lau+Central', type: 'food' }] },
+          { id: '3-3', time: '14:00', title: '中環半山扶手電梯', description: '體驗世界最長戶外電梯。稍晚彌敦道逛街。', links: [{ label: '電梯位置', url: 'https://www.google.com/maps/search/?api=1&query=Central+Mid+Levels+Escalator', type: 'map' }] },
+          { id: '3-4', time: '18:30', title: '晚餐 (廟街周邊)', description: '廟街夜市。建議：坤記煲仔飯 / 佳佳甜品。', links: [{ label: '坤記地圖', url: 'https://www.google.com/maps/search/?api=1&query=Kwan+Kee+Claypot+Rice', type: 'food' }] },
+          { id: '3-5', time: '20:00', title: '維多利亞港夜景', description: '星光大道散步。幻彩詠香江。' }
         ]
       },
       {
         day: '第四天',
         date: '2/25 (三) 澳門',
-        weather: '17°C - 22°C ☀️ 晴朗',
+        weather: '18°C - 23°C ☀️ 晴朗',
         items: [
           { id: '4-1', time: '08:30', title: '前往碼頭', description: 'Uber (30分鐘) 往上環信德中心或中港城。', isImportant: true, links: [{ label: '上環碼頭', url: 'https://www.google.com/maps/place/%E9%A6%99%E6%B8%AF%E5%B0%96%E6%B2%99%E5%92%80%E4%B8%AD%E5%9C%8B%E5%AE%A2%E9%81%8B%E7%A2%BC%E9%A0%AD/@22.2989038,114.1628425,912m/data=!3m1!1e3!4m6!3m5!1s0x3404009297fce72d:0x7475eca620a27198!8m2!3d22.2990876!4d114.1662761!16s%2Fg%2F12hnz4ztj?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D', type: 'map' }] },
           { id: '4-2', time: '10:30', title: '渡輪往澳門', description: '外港客運碼頭 (1小時)。Klook 訂票 (預訂 x4 + x4)。', isImportant: true },
@@ -344,7 +344,7 @@ export const DATA: Record<Language, AppData> = {
       {
         day: '第五天',
         date: '2/26 (四) 返程',
-        weather: '18°C - 24°C 🌤️ 晴朗',
+        weather: '19°C - 24°C 🌤️ 晴朗',
         items: [
           { id: '5-1', time: '10:30', title: '最後採購 / Bakehouse', description: '維多利亞港晨景。購買 Bakehouse 蛋塔。', links: [{ label: 'Bakehouse TST', url: 'https://www.google.com/maps/search/?api=1&query=Bakehouse+Tsim+Sha+Tsui', type: 'food' }] },
           { id: '5-2', time: '12:15', title: '退房', description: '金域假日酒店退房。' },
